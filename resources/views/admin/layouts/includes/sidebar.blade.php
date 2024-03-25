@@ -19,7 +19,7 @@
         </div>
         <ul class="navbar-nav flex-fill w-100 mb-2">
             <li class="nav-item w-100">
-                <a class="nav-link" href="{{ route('home') }}">
+                <a class="nav-link" href="{{ url('/') }}">
                     <i class="fe fe-home fe-16"></i>
                     <span class="ml-3 item-text">Dashboard</span><span class="sr-only">(current)</span>
                     {{-- <span class="badge badge-pill badge-primary">New</span> --}}
@@ -91,6 +91,12 @@
                     <i class="fe fe-layers fe-16"></i>
                     <span class="ml-3 item-text">Colors</span>
                     {{-- <span class="badge badge-pill badge-primary">New</span> --}}
+                </a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('capacities.index') }}">
+                    <i class="fe fe-layers fe-16"></i>
+                    <span class="ml-3 item-text">Capacity</span>
                 </a>
             </li>
         </ul>
