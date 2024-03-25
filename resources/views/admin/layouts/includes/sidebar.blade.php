@@ -99,6 +99,18 @@
                     <span class="ml-3 item-text">Capacity</span>
                 </a>
             </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('manufacturers.index') }}">
+                    <i class="fe fe-layers fe-16"></i>
+                    <span class="ml-3 item-text">Manufacturer</span>
+                </a>
+            </li>
+            <li class="nav-item w-100">
+                <a class="nav-link" href="{{ route('categories.index') }}">
+                    <i class="fe fe-layers fe-16"></i>
+                    <span class="ml-3 item-text">Category</span>
+                </a>
+            </li>
         </ul>
         {{-- <p class="text-muted nav-heading mt-4 mb-2 pl-4">
             <span>Events</span>
